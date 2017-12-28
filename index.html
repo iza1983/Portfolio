@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" >
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="./main.css">  
+
+  <title>Weekly dev challenge 1</title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <img src="./img/logo.png"/>
+    </div>
+
+    <div class="col">
+      <h2>Register Form</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-field">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Username" />
+          </div>
+        
+          <div class="input-field">
+              <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+              <input type="password" placeholder="Password" />
+          </div>
+        
+          <div class="input-field">
+              <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+              <input type="password" placeholder="Confim Password" />
+          </div>
+        
+          <div class="input-field">
+              <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+              <input type="text" placeholder="Email" />
+          </div>
+        
+          <div class="input-field">
+              <span><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+              <div class="select">
+                <select>
+                  <option>Your Location</option>
+                  <option value="USA">USA</option>
+                  <option value="GB">GB</option>
+                  <option value="PL">PL</option>
+                  <option value="DE">DE</option>
+                </select>
+              </div>
+          </div>
+        
+          <div class="input-field checkbox-field">
+            <input type="checkbox" id="check1" name="check" value="Check1" />
+            <label for="check1">I have read and accept the terms of use.</label>
+          </div>
+        
+          <button>Sign up</button>
+        </form>
+      </div>
+      
+      <h2>Send Email</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-field">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Your name"/>
+          </div>
+
+          <div class="input-field">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Your Email" />
+          </div>
+
+          <div class="input-field textarea-field">
+              <textarea rows="10" placeholder="Type your message..."></textarea>
+          </div>
+
+          <div class="input-field checkbox-field">
+            <input type="checkbox" name="check2" id="check2" value="check2" />
+            <label for="check2">Send a copy to my Email</label>
+          </div>
+
+          <button>Send Email</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="col">
+      <h2>Sign In Form</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-field">
+            <span><i class="fa fa-user" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Username" />
+          </div>
+
+          <div class="input-field">
+            <span><i class="fa fa-lock" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Password" />
+          </div>
+
+          <div class="input-field checkbox-field flex-field">
+            <div class="field-50">
+              <input type="checkbox" name="check3" id="check3" value="check3" />
+              <label for="check3">Remember me</label>
+            </div>
+
+            <div class="field-50">
+              <button>Sign In</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <h2>Recover Form</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-field">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Enter your Email" />
+          </div>
+
+          <div class="input-field">
+            <span><i class="fa fa-mobile-phone" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Enter your Phone number" />
+          </div>
+
+          <div class="input-field checkbox-field flex-field">
+            <div class="field-50">
+              <button>Send</button>
+            </div>
+            
+            <div class="field-50">
+              <button class="inactive">Done</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <h2>Subscribe Form</h2>
+      <div class="form-wrapper">
+        <form>
+          <div class="input-field">
+            <span><i class="fa fa-envelope" aria-hidden="true"></i></span>
+            <input type="text" placeholder="Enter your Email" />
+          </div>
+
+          <div class="input-field checkbox-field flex-field">
+            <div class="field-50">
+              <button>Subscribe</button>
+            </div>
+            
+            <div class="field-50">
+              <button class="red">No, Thanks</button>
+            </div>
+          </div>
+        </form>
+      </div>
+
+      <div class="row">
+        <img src="./img/logowww.png" />
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
